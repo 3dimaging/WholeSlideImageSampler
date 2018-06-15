@@ -2,7 +2,7 @@ from openslide import OpenSlide
 import numpy as np
 
 from .slides.openslideplus import OpenSlidePlus
-from wsisampler.utils.slide_utils import get_level
+from .utils.slide_utils import get_level
 
 
 class Annotation(OpenSlide):

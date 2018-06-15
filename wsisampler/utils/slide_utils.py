@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-from wsisampler.slides.assign import assign_wsi_plus
+from ..slides.assign import assign_wsi_plus
 
 
 def level_converter(wsi, x, lvl_in, lvl_out):

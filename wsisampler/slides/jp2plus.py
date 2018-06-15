@@ -1,7 +1,8 @@
 import numpy as np
 import os
 from PIL import Image
-from wsisampler.utils.misc_utils import index_last_non_zero
+
+from ..utils.misc_utils import index_last_non_zero
 
 try:
     import matlab

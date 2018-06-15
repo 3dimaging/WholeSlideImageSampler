@@ -1,6 +1,7 @@
 from openslide import OpenSlide
 import os
-from wsisampler.utils.misc_utils import index_last_non_zero
+
+from ..utils.misc_utils import index_last_non_zero
 
 
 class OpenSlidePlus(OpenSlide):
